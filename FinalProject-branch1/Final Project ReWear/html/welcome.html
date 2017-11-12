@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../CSS/styles.css">
+        <link rel="stylesheet" href="../bootstrapenhance/bootstrap/css/bootstrap.min.css">
+        <!-- <link rel="stylesheet" href="../bootstrapenhance/dist/css/dropdowns-enhancement.css"> -->
+</head>
+
+<body style="background-color: #254d32;">
+
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #69b587;">
+        
+        
+                
+                
+                
+        
+        
+                <div class="collapse navbar-collapse ">
+                                <a class="navbar-brand" href="#">
+                                                <img src="../images/rewearLogo.png" width="70" height="70" alt="" class="bg-light d-inline-block align-top productPage">
+                                </a>
+                                <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+        
+                                        <a class="nav-link productPage" href="#">Products</a>
+                                </li>
+                                <li class="nav-item active">
+                                        <a class="nav-link stylesPage" href="#">Styles</a>
+                                </li>
+                                <li class="nav-item active">
+                                        <a class="nav-link inventoryPage" href="#">Invetory</a>
+                                </li>
+                                <li class="nav-item active">
+                                        <a class="nav-link profilePage" href="#">Profile</a>
+                                </li>
+                                <li class="nav-item active">
+                                        <a class="nav-link aboutusPage" href="#">About Us</a>
+                                </li>
+                                <li class="nav-item active align-self-right">
+                                        <a class="nav-link  " id="logout" onclick="redirectHome()" href="#">Logout</a>
+                                </li>
+                        </ul>
+        
+                </div>
+        </nav>
+        <div class="container-fluid">
+        
+                <diV id="productPage" hidden>
+        
+                        <h1 class="myh1"> Products </h1>
+                        <div class="container-fluid ">
+                                <div class="row ">
+                                        <div class="col-2">
+        
+        
+                                        </div>
+                                        <div class="col-3">
+                                                <img class="packageOption" src="../images/smallPackage.jpg" height="300" width="350">
+                                                <br>
+                                                <input id="smallPackage" class="package align-self-center" type="radio" name="package" value="big" checked>Big package
+                                        </div>
+                                        <div class="col-2">
+        
+                                        </div>
+                                        <div class="col-3">
+                                                <img class="packageOption" src="../images/smallPackage.jpg" height="300" width="350">
+                                                <br>
+                                                <input id="BigPackage" class="package align-self-center" type="radio" name="package" value="small">Small package
+                                        </div>
+                                </div>
+        
+                                <div class="row">
+                                        <div class="col col-5 align-self-center">
+        
+        
+        
+                                        </div>
+                                        <div class="col col-6 align-self-center">
+                                                <button id="order" class="package btn-success align-self-center">Order</button>
+        
+        
+                                        </div>
+        
+                                </div>
+                                <div class="row form-element" id="checkOrder" hidden>
+                                        <div class="col-3"></div>
+                                        <div class="col-6">
+                                                <br>
+        
+                                                <ul id="orderData" class="list">Order Data</ul>
+                                                <button class="btn btn-success" id="executeOrder">Order Now !</button>
+                                        </div>
+        
+                                        <div class="col-3"></div>
+        
+        
+        
+                                </div>
+        
+                        </diV>
+                </diV>
+        
+                <div id="stylesPage" >
+                        <h1 class="myh1">Styles</h1>
+                        <div class="container-fluid " style="background-color: #254d32;">
+                                        <div class="row">
+                                                <h2 class="myh3">Chose your style type !</h2>
+                                        </div>
+                                
+                                <div class="row">
+                                        
+                                        <div class="col-3">
+                                                
+                                                <img id="logow" src="../images/smallPackage.jpg" class="packageOption h-75 w-75">
+                                                <br>
+                                                <p><input class="style" type="radio" name="style" value="formal">Light</p>
+        
+                                        </div>
+                                        <div class="col-3">
+                                                <img id="logow" src="../images/smallPackage.jpg" class="packageOption h-75 w-75">
+                                                <br>
+                                                <p><input class="style" type="radio" name="style" value="formal">Sporty</p>
+                                        </div>
+                                        <div class="col-3">
+                                                <img id="logow" src="../images/smallPackage.jpg" class=" packageOption h-75 w-75">
+                                                <br>
+                                                <p><input class="style" type="radio" name="style" value="formal">Vintage</p>
+                                        </div>
+                                        <div class="col-3">
+                                                <img id="logow" src="../images/smallPackage.jpg" class="packageOption h-75 w-75">
+                                                <br>
+                                                <p class="p"><input class="style" type="radio" name="style" value="formal">Normal </p>
+                                        </div>
+                                </div>
+                                <div class="row">
+                                                <div class="col-4">
+                                                        <h3 class="myh3">Select your colors!</h3>
+                                                </div>
+                                                <div class="col-4">
+                                                        <h3 class="myh3">Select your size !</h3>
+                                                </div>
+                                                <div class="col-4">
+                                                        <h3 class="myh3">Select your favorite Brands !</h3>                
+                                                </div>
+                                </div>
+        
+                                <div class="row">
+                                        <div class="col-4">
+                                                        <div class="button-group">
+                                                                        <button type="button"  class="btn btn-success dropdown-toggle bg-dark btn-md" data-toggle="dropdown">
+                                                                              
+                                                                                <span class="caret">Colors</span>
+                                                                        </button>
+                                                                        <ul class="dropdown-menu">
+                                                                                <li>
+                                                                                        <p for"brand1" href="#" class="small" data-value="option1" tabIndex="-1">
+                                                                                                <input type="checkbox" id="checkRed" />Red</p>
+                                                                                </li>
+                                                                                <li>
+                                                                                        <p for"brand2"  href="#" class="small" data-value="option2" tabIndex="-1">
+                                                                                                <input type="checkbox"  id="checkGreen"/>Green</p>
+                                                                                </li>
+                                                                                <li>
+                                                                                        <p for"brand3"  href="#" class="small" data-value="option3" tabIndex="-1">
+                                                                                                <input type="checkbox" id="checkBlue"/>Blue</p>
+                                                                                </li>
+                                                                                <li>
+                                                                                        <p for"brand4"  href="#" class="small" data-value="option4" tabIndex="-1">
+                                                                                                <input type="checkbox" id="checkYellow"/>Yellow</p>
+                                                                                </li>
+                                                                                <li>
+                                                                                        <p for"brand5"  href="#" class="small" data-value="option5" tabIndex="-1">
+                                                                                                <input type="checkbox" id="checkWhite"/>White</p>
+                                                                                </li>
+                                                                                <li>
+                                                                                        <p for"brand6"  href="#" class="small" data-value="option6" tabIndex="-1">
+                                                                                                <input type="checkbox"  id="checkBlack"/>Black</p>
+                                                                                </li>
+                                                                        </ul>
+                                                                </div>
+                                        </div>
+                                        <div class="col-4">
+        
+                                                <br>
+                                                <select class="form-control form-control-sm  btn-success  " id="size" value="Size">
+                                                        <option value="20">20</option>
+                                                        <option value="22">22</option>
+                                                        <option value="24">24</option>
+                                                        <option value="26">26</option>
+                                                        <option value="28">28</option>
+                                                        <option value="30">30</option>
+                                                        <option value="31">31</option>
+                                                        <option value="32">32</option>
+                                                        <option value="33">33</option>
+                                                        <option value="34">34</option>
+                                                        <option value="36">36</option>
+                                                        <option value="38">38</option>
+                                                        <option value="40">40</option>
+                                                </select>
+        
+        
+        
+                                        </div>
+                                        <div class="col-4">
+                                                <br/>
+                                                <div class="container">
+                                                        <div class="row">
+                                                                <div class="button-group">
+                                                                        <button type="button" class="btn btn-success bg-dark dropdown-toggle" data-toggle="dropdown">
+                                                                                <span class="glyphicon glyphicon-cog"></span>
+                                                                                <span class="caret">Brands</span>
+                                                                        </button>
+                                                                        <ul class="dropdown-menu">
+                                                                                <li>
+                                                                                        <p for"brand1" href="#" class="small" data-value="option1" tabIndex="-1">
+                                                                                                <input type="checkbox" id="brand1" />Brand 1</p>
+                                                                                </li>
+                                                                                <li>
+                                                                                        <p for"brand2"  href="#" class="small" data-value="option2" tabIndex="-1">
+                                                                                                <input type="checkbox"  id="brand2"/>Brand 2</p>
+                                                                                </li>
+                                                                                <li>
+                                                                                        <p for"brand3"  href="#" class="small" data-value="option3" tabIndex="-1">
+                                                                                                <input type="checkbox" id="brand3"/>Brand 3</p>
+                                                                                </li>
+                                                                                <li>
+                                                                                        <p for"brand4"  href="#" class="small" data-value="option4" tabIndex="-1">
+                                                                                                <input type="checkbox" id="brand4"/>Brand 4</p>
+                                                                                </li>
+                                                                                <li>
+                                                                                        <p for"brand5"  href="#" class="small" data-value="option5" tabIndex="-1">
+                                                                                                <input type="checkbox" id="brand5"/>Brand 5</p>
+                                                                                </li>
+                                                                                <li>
+                                                                                        <p for"brand6"  href="#" class="small" data-value="option6" tabIndex="-1">
+                                                                                                <input type="checkbox"  id="brand6"/>Brand 6</p>
+                                                                                </li>
+                                                                        </ul>
+                                                                </div>
+        
+                                                        </div>
+                                                </div>
+        
+                                        </div>
+                                        <div class="col-5">
+                                                
+        
+                                        </div>
+                                        
+                                        <div class="col-6">
+                                                <br>
+                                                <br>
+                                                        <button class="btn btn-success">Save Style</button>
+                
+                                                </div>
+                                </div>
+        
+        
+                        </div>
+        
+        
+                </div>
+        
+        
+                <div id="inventoryPage" hidden>
+                        <h1 class="myh1">Inventory</h1>
+        
+                        <div id="itemsReceived" class="d-flex p-2 box">
+                                        <h2 class="myh2">Items Received</h2>
+                                <div class="d-flex flex-row flex-wrap">
+                                        <br>
+        
+                                </div>
+                        </div>
+                        
+                        <div id="itemsSent" class="d-flex p-2 box">
+                                        <h2 class="myh2">Items Sent</h2>
+                                <div class="d-flex flex-row flex-wrap">
+                                        <br>
+        
+                                </div>
+                        </div>
+                </div>
+                <div id="profilePage" hidden>
+                                <h1 class="myh1">Profile</h1>
+                        <div class="row">
+                                <div class="col-4">
+                                        <ul id="profileList" class="list">Profile </ul>
+                                </div>
+                                <div class="col-8">
+                                                <h2 class="myh2"> Orders</h2>
+                                                <div class="d-flex flex-row flex-wrap" id="orderList">
+                                                                
+                                                </div>
+                                        </div>
+                
+                
+                                </div>
+                        </div>
+                </div>
+                <div id="aboutusPage" hidden>
+                         <h1 class="myh1">About us</h1>
+        
+                </div>
+        
+        </div>
+        </div>
+      
+        <script type="text/javascript" src=../JS/jquery.js> </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script type="text/javascript" src=../bootstrapenhance/bootstrap/js/bootstrap.min.js> </script>
+        <script type="text/javascript" src=../JS/script.js> </script>
+        <script type="text/javascript" src=../JS/session.js> </script>
+        
+
+
+</body>
