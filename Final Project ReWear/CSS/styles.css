@@ -1,0 +1,202 @@
+.myh2{
+    color: white;
+    
+    font-family: 'Helvetica Neue', sans-serif;
+     font-size: 36px;
+      font-weight: 100;
+       line-height: 50px;
+        letter-spacing: 5px;
+         padding: 20px;
+          border-bottom: double white;
+}
+.myh3{
+    color: rgba(216, 201, 201, 0.87);
+    font-family: 'Helvetica Neue', sans-serif;
+     font-size: 28px;
+      font-weight: 100;
+       line-height: 50px;
+        letter-spacing: 5px;
+         padding: 10px;
+          
+}
+#size{
+    width: 70%;
+}
+.box{
+    border:1px solid black;
+}
+#loginfield{
+    border: 2px solid black;
+    background-color: #69b578;
+    width: 70%;
+    
+    padding-left: 30px;
+    border-radius: 5%;
+}
+#registerfield{
+    background-color: #69b578;
+    border: width border-style color;
+    width: 70%;
+    padding-left: 30px;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+#myDiv{
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: #3a7d44;
+    overflow: hidden;
+    width: 20%;
+}
+#body{
+    background: url("../images/background.jpeg");
+    background-size: 100% 100%;
+}
+
+#logo {
+
+    
+    float: left;
+    
+
+}
+#nameofCompany{
+    font-family: Times, serif;
+    font-size: 40px;
+    padding-left: 60px;
+    color: #FFFFFF;
+    margin: 5px 10px 20px 150px;
+    padding-bottom: 50px;
+    display: block;
+    position: relative;
+    padding-top: 60px;
+}
+.packageOption{
+    border: 4px solid black;
+}
+.warning{
+    color:red;
+    size: 15px;
+}
+.warn{
+    color:red;
+    size: 15px;
+}
+.myheader{
+    background-color: #181d27;
+}
+button{
+    color: white;
+    font-size: 15px;
+    background-color: #57F857;
+    border-radius: 40%;
+    border: 3px solid white;
+    padding: 12px 28px;
+    margin: 10px;
+    
+}
+legend{
+    font-size: 15px;
+}
+.reg{
+    border: 1px solid #840404;
+    width: 50%;
+    border-radius: 3px;
+    overflow: hidden;
+    
+}
+.log{
+    border: 1px solid #840404;
+    width: 240px;
+    border-radius: 3px;
+    overflow: hidden;
+    
+}
+
+#logow{
+    
+    display: inline-block;
+    
+}
+
+
+#welcome{
+    color: white;
+    font-family: sans-serif;
+   
+    font-size: 35px;
+    
+}
+.comment{
+    background-color: lightgrey;
+    border: 80%;
+    font-size: 15px;
+    padding: 15px;
+    font-style: normal;
+    padding: 20px;
+    border-color: yellow;
+    border: 3px solid blue;
+    border-radius:10%;
+
+}
+#commentField {
+  
+  display: line;
+  margin-bottom: 15px;
+  width: 70%;;
+  font-family: sans-serif;
+  font-size: 18px;
+ 
+  box-shadow: none;
+  
+    background-color: white;
+    padding: 10px;
+}
+h4{
+    color: white;
+    font-size: 25px;
+}
+
+.list {
+    background-color: #d0db97;
+    padding: 20px;
+    padding-left: 44px;
+    color: black;
+   border: 3px solid black;
+    font-size: 25px;
+    width: 100%;
+    border-radius: 5%;
+}
+.profileInfo {
+    color: black;
+    background-color: lightblue;
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+#commentRiver{
+    font-size: 17px;
+    padding: 15px;
+    margin: 40px;
+    
+}
+td,th{
+    background-color: rgb(42, 165, 165);
+    margin: 10px;
+   font-size: 18px;
+   color : black;
+    border: 3px solid black;
+}
+.myh1{
+    color: #c9d0d4;
+     font-family: 'Helvetica Neue', sans-serif;
+      font-size: 46px;
+       font-weight: 100;
+        line-height: 50px;
+         letter-spacing: 5px;
+          padding: 20px;
+           border-bottom: double white;
+}
+
