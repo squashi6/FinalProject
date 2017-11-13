@@ -1,0 +1,128 @@
+
+
+<!DOCTYPE html>
+
+<html>
+        
+<head>
+                <meta charset="utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="CSS/styles.css">
+                <link rel="stylesheet" href="bootstrapenhance/bootstrap/css/bootstrap.min.css">
+               
+</head>
+<body class="body">
+        
+        <header class="myheader">
+                <img id="logo" src="images/rewearLogo.png" height="120" width="120">
+                <div id="nameofCompany"> ReWear: get rid of your old clothes !
+                </div>
+        </header>
+        
+        
+                <div class="formgroup col-3 self-align-end float-right" id="loginfield">
+                        <legend>
+                                <h3>Login</h3>
+                        </legend>
+                        <span>Username</span>
+                        <br>
+                        <input type="text" class="log form-control form-control-sm" id="username">
+                        <span class="warn" id="wrongUsername"></span>
+                        <br>
+                        <span>Password</span>
+                        <br><input class="form-control form-control-sm checkbox-inline" type="password" id="password" class="log">
+                        <span class="warn" id="wrongPassword"></span>
+                        <br> Remeber Data?
+                        
+                        <input type="checkbox" id="remember" default="false">
+                        <br>
+                        <br>
+                        
+
+                        <button class="submit btn btn-success" type="submit" id="submitLog">Login</button>
+                        <br>
+                        <a>No Account yet?</a>
+                        <button type="button" class="btn btn-outline-primary btn-sm" id="register">Register Now!</button>
+                        </div>
+
+
+
+
+                <div class="formgroup col-3 self-align-end float-right" id="registerfield" hidden>
+                        <legend>
+                                <h3>Register</h3>
+                        </legend>
+                        <p>firstname
+                                <br>
+                                <input type="text" class="reg log form-control form-control-sm" name="firstname" id="firstname">
+                                <span class="warning" id="firstnamew" hidden>please enter your name</span>
+                                <p>lastname
+                                        <br>
+                                        <input type="text" class="reg log form-control form-control-sm" name="lastname" id="lastname">
+                                        <span class="warning" id="lastnamew" hidden>Please enter your lastname</span>
+                                        <p>username
+                                                <br>
+                                                <input type="text" class="reg log form-control form-control-sm" name="username" id="usernameReg">
+                                                <span class="warning" hidden>Please enter a username</span>
+                                                <p>email
+                                                        <br>
+                                                        <input type="email" class="reg log form-control form-control-sm" name="email" id="email">
+                                                        <span class="warning" hidden>Please enter a EMail</span>
+                                                        <p>password
+                                                                <br>
+                                                                <input type="password" class="reg log form-control form-control-sm" name="password" id="passwordreg">
+                                                                <span class="warning" hidden>Please enter a password</span>
+                                                                <p>password confirmation
+                                                                        <br>
+                                                                        <input type="password" class="reg log form-control form-control-sm" name="password" id="passwordregconf">
+                                                                        <span class="warning" hidden>Please enter the same Password</span>
+                
+                
+                                                                        <p>Country
+                                                                                <br>
+                                                                                <span class="warning" id="countryw" hidden>Please select a country</span>
+                                                                                <br>
+                                                                                <select class="reg log form-control form-control-sm" id="country" value="select A country">
+                                                                                        <option value="1">select A country</option>
+                                                                                        <option value="EN">EN</option>
+                                                                                        <option value="SW">SW</option>
+                                                                                        <option value="be">be</option>
+                                                                                        <option value="DK">DK</option>
+                                                                                        <option value="FE">FE</option>
+                                                                                        <option value="GB">GB</option>
+                                                                                        <option value="GR">GR</option>
+                                                                                        <option value="IT">IT</option>
+                                                                                        <option value="IT">IT</option>
+                                                                                        <option value="IE">IE</option>
+                                                                                        <option value="LU">LU</option>
+                                                                                        <option value="MT">MT</option>
+                                                                                        <option value="NL">NL</option>
+                                                                                        <option value="AT">AT</option>
+                                                                                </select>
+                                                                                <br>
+                                                                                <br>
+                
+                                                                                <span class="warning" id="gender" hidden>Select a Gender</span>
+                                                                                <legend>Gender</legend>
+                
+                
+                                                                                <input id="female" class="radio" type="radio" name="gender" value="female">female
+                                                                                <br>
+                                                                                <br>
+                                                                                <input id="male" class="radio" type="radio" name="gender" value="male">male
+                                                                                <br>
+                
+                                                                                <button class="btn btn-success" id="submitReg">Register </button>
+                                                                                <br>
+                                                                                <a>No Account yet?</a>
+                
+                                                                                <button type="button" class="btn btn-outline-primary btn-sm" id="login">Login Now!</button>
+                <script type="text/javascript" src=JS/jquery.js> </script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+                <script type="text/javascript" src=bootstrapenhance/bootstrap/js/bootstrap.min.js> </script>
+                <script type="text/javascript" src=JS/script.js> </script>
+                
+</body>
+</html>
+
